@@ -1,4 +1,4 @@
-class AddColumn < ActiveRecord::Migration[5.1]
+class AddColumn < ActiveRecord::Migration[4.2]
 
   def up
     add_column :grade, :integer
