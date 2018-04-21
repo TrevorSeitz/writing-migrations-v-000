@@ -5,7 +5,5 @@ class AddColumn < ActiveRecord::Migration[5.1]
     add_column :students, :birthday, :string
   end
 
-  def down
-  end
 
   end
