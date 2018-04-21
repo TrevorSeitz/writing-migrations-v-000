@@ -1,8 +1,8 @@
 class AddColumn < ActiveRecord::Migration
 
   def up
-    add_column :grade, :integer
-    add_column :birthday, :string
+    add_column :students, :grade, :integer
+    add_column :students, :birthday, :string
   end
 
   def down
